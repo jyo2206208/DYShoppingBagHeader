@@ -12,5 +12,7 @@
 
 - (UIViewController *)shoppingBagViewController;
 - (void)addToShoppingBagWithConfirmAction:(void(^)(NSDictionary *info))confirmAction;
+- (NSString *)productCount;
+- (UIImage *)bagIconImage;
 
 @end

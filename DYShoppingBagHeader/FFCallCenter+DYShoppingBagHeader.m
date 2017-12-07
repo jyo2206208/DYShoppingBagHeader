@@ -10,17 +10,25 @@
 
 @implementation FFCallCenter (DYShoppingBagHeader)
 
-- (UIViewController *)shoppingBagViewController{
+- (UIViewController *)shoppingBagViewController {
     return [self performTarget:@"DYShoppingBag" action:@"shoppingBagViewController" params:nil shouldCacheTarget:YES];
 }
 
-- (void)addToShoppingBagWithConfirmAction:(void(^)(NSDictionary *info))confirmAction{
+- (void)addToShoppingBagWithConfirmAction:(void(^)(NSDictionary *info))confirmAction {
     NSMutableDictionary *paramsToSend = [[NSMutableDictionary alloc] init];
     if (confirmAction) {
         paramsToSend[@"confirmAction"] = confirmAction;
     }
     
     [self performTarget:@"DYShoppingBag" action:@"addProductToBag" params:paramsToSend shouldCacheTarget:NO];
+}
+
+- (NSString *)productCount {
+    return [self performTarget:@"DYShoppingBag" action:@"shoppingCount" params:nil shouldCacheTarget:NO];
+}
+
+- (UIImage *)bagIconImage {
+    return [self performTarget:@"DYShoppingBag" action:@"bagIcon" params:nil shouldCacheTarget:YES];
 }
 
 @end
