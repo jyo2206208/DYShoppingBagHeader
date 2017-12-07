@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DC666821FD8DBB6005BCC12 /* FFCallCenter+DYShoppingBagHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DC666811FD8DBB6005BCC12 /* FFCallCenter+DYShoppingBagHeader.m */; };
 		52FE00487A0D7E646FE6D619 /* Pods_DYShoppingBagHeader_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DB9190432B7E450363D434B /* Pods_DYShoppingBagHeader_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -38,10 +39,12 @@
 
 /* Begin PBXFileReference section */
 		1CAB1B0A0A0A58922ED77D44 /* Pods-DYShoppingBagHeader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYShoppingBagHeader_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYShoppingBagHeader_Example/Pods-DYShoppingBagHeader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1DC666801FD8DBB6005BCC12 /* FFCallCenter+DYShoppingBagHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFCallCenter+DYShoppingBagHeader.h"; sourceTree = "<group>"; };
+		1DC666811FD8DBB6005BCC12 /* FFCallCenter+DYShoppingBagHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FFCallCenter+DYShoppingBagHeader.m"; sourceTree = "<group>"; };
 		247B3552C8CAD99BC5A6388A /* Pods_DYShoppingBagHeader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYShoppingBagHeader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A9D3A9814B87D111B5675C /* Pods-DYShoppingBagHeader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYShoppingBagHeader_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYShoppingBagHeader_Example/Pods-DYShoppingBagHeader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4569A48240A6C247DCEA2B77 /* DYShoppingBagHeader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; path = DYShoppingBagHeader.podspec; sourceTree = "<group>"; };
-		460C77348C79F91C2985B3E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4569A48240A6C247DCEA2B77 /* DYShoppingBagHeader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = DYShoppingBagHeader.podspec; sourceTree = "<group>"; };
+		460C77348C79F91C2985B3E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		4DB9190432B7E450363D434B /* Pods_DYShoppingBagHeader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DYShoppingBagHeader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54403699DE5DD663A81A1BA1 /* Pods-DYShoppingBagHeader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYShoppingBagHeader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DYShoppingBagHeader_Tests/Pods-DYShoppingBagHeader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DYShoppingBagHeader_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYShoppingBagHeader_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,11 +65,10 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		653EC2A7839CE90833D21E87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		653EC2A7839CE90833D21E87 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		785DD3B7482D61710B769C7A /* Pods-DYShoppingBagHeader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DYShoppingBagHeader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DYShoppingBagHeader_Tests/Pods-DYShoppingBagHeader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DBAA7324FC001CC299086E2E /* RemoveMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RemoveMe.m; path = ../DYShoppingBagHeader/RemoveMe.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,9 +100,9 @@
 		1D4EE82C1FCDD0590062AFE5 /* DYShoppingBagHeader */ = {
 			isa = PBXGroup;
 			children = (
-				DBAA7324FC001CC299086E2E /* RemoveMe.m */,
+				1DC666801FD8DBB6005BCC12 /* FFCallCenter+DYShoppingBagHeader.h */,
+				1DC666811FD8DBB6005BCC12 /* FFCallCenter+DYShoppingBagHeader.m */,
 			);
-			name = DYShoppingBagHeader;
 			path = DYShoppingBagHeader;
 			sourceTree = "<group>";
 		};
@@ -256,7 +258,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DY;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = jyo2206208;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -342,9 +344,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DYShoppingBagHeader_Example/Pods-DYShoppingBagHeader_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FFCallCenter/FFCallCenter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFCallCenter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -410,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DYAppDelegate.m in Sources */,
+				1DC666821FD8DBB6005BCC12 /* FFCallCenter+DYShoppingBagHeader.m in Sources */,
 				6003F5A7195388D20070C39A /* DYViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -469,19 +475,30 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -509,18 +526,29 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
